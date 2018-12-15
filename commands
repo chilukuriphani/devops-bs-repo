@@ -1,0 +1,112 @@
+ 1  passwd 
+    2  cat /etc/*-release
+    3  yum install git vim -y 
+    4  git --version 
+    5  ls
+    6  mkdir my-dev-project
+    7  cd my-dev-project/
+    8  ls
+    9  echo "# devops-bs-repo" >> README.md
+   10  cat README.md 
+   11  ls -a
+   12  git init 
+   13  ls -a
+   14  git add .
+   15  git status 
+   16  git commit -m "Initial Commit"
+   17  git config --global user.name "Amit Vashist"
+   18  git config --global user.email amitvashist7@gmail.com
+   19  git status 
+   20  git remote add origin https://github.com/amitvashist7/devops-bs-repo.git
+   21  git config
+   22  git config --list 
+   23  git push 
+   24  git status 
+   25  vim README.md 
+   26  git status 
+   27  git add .
+   28  git commit -m "Second Commit"
+   29  git push 
+   30  git push -u origin master
+   31  history 
+   32  git config --list 
+   33  git status 
+   34  git log 
+   35  ls
+   36  echo "Hello Again" >> README.md 
+   37  git add -u 
+   38  git status 
+   39  echo "Hello Again" >> HelloWorld.txt 
+   40  git add .
+   41  git status 
+   42  git commit
+   43  git logs 
+   44  git log
+   45  git push 
+   46  history 
+   47  echo "HelloWorld" | git hash-object --stdin -w
+   48  echo "ApplePie" | git hash-object --stdin -w
+   49  ls
+   50  cd .git/
+   51  ls
+   52  cd  branches/
+   53  ls
+   54  ls -a 
+   55  cd  ..
+   56  ls
+   57  cd branches/
+   58  cd ../objects/
+   59  ls
+   60  cd 71/
+   61  ls
+   62  file af98f7e9820e1f9a5b1d349a2fea565aae7752 
+   63  cd ..
+   64  ls
+   65  cd ..ls
+   66  ls
+   67  cd ..
+   68  ls
+   69  cat HEAD 
+   70  git diff HEAD~1
+   71  git diff HEAD 
+   72  git diff HEAD --help
+   73  git diff HEAD~1
+   74  cd 
+   75  ls
+   76  cd - 
+   77  ls
+   78  cd ..
+   79  l
+   80  ls
+   81  git diff HEAD~1
+   82  git diff HEAD~2
+   83  git diff HEAD~1..HEAD~2
+   84  echo "I'm having a typo in README.txt" >> README.md 
+   85  echo "Fixing the latest bug: 12345" >> file1.txt
+   86  git add .
+   87  git commit -m "Lates Bug: 12345 has been Fixed"
+   88  git push 
+   89  ls
+   90  history 
+   91  git config -list 
+   92  git config --list 
+   93  cd 
+   94  yum install httpd -y 
+   95  history > /var/www/html/cmd.html
+   96  service httpd restart
+   97  history > /var/www/html/cmd-1.txt
+    1  echo "Deleting & Renaming file in GIT"
+    2  ls
+    3  cd my-dev-project/
+    4  ls
+    5  rm -rf file1.txt 
+    6  git status 
+    7  git add .
+    8  git rm file1.txt
+    9  git status 
+   10  git commit -m "File1 has been removed"
+   11  git push 
+   12  git logs 
+   13  git log
+   14  history 
+   15  history >> /var/www/html/cmd-1.txt 
